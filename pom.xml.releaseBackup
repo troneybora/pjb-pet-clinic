@@ -14,7 +14,7 @@
     </parent>
     <groupId>troney.springframework</groupId>
     <artifactId>pjb-pet-clinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>pjb-pet-clinic</name>
     <description>PJB PET CLINIC PROJECT</description>
 
@@ -36,7 +36,9 @@
                             install
                     </goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
-
+                    <checkModificationExcludes>
+                        <checkModificationExclude>pom.xml</checkModificationExclude>
+                    </checkModificationExcludes>
                 </configuration>
             </plugin>
         </plugins>

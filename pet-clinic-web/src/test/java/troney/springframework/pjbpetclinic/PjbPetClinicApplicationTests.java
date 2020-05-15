@@ -1,9 +1,9 @@
-package pjbpetclinic;
+package troney.springframework.pjbpetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = {PjbPetClinicApplication.class})
 class PjbPetClinicApplicationTests {
 
     @Test
