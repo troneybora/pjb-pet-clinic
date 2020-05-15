@@ -14,7 +14,7 @@
     </parent>
     <groupId>troney.springframework</groupId>
     <artifactId>pjb-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>pjb-pet-clinic</name>
     <description>PJB PET CLINIC PROJECT</description>
 
@@ -46,7 +46,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:troneybora/pjb-pet-clinic.git</developerConnection>
-      <tag>pjb-pet-clinic-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
