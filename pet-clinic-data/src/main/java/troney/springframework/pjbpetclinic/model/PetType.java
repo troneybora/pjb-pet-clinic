@@ -1,6 +1,6 @@
 package troney.springframework.pjbpetclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity{
 
     private String name;
 
