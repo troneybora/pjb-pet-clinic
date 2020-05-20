@@ -5,7 +5,27 @@
     <title>Owner Clinic Index</title>
 </head>
 <body>
-<h1 th:text="'Index Page'">Index Page</h1>
+<h1 th:text="'List of Owners'">Owners List</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>FirstName</th>
+        <th>LastName</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="owner :${owners}">
+        <td th:text="${owner.id}">1</td>
+        <td th:text="${owner.firstName}">Troney</td>
+        <td th:text="${owner.lastName}">Bora</td>
+    </tr>
+    </tbody>
+</table>
+
+
+
 
 </body>
 </html>
