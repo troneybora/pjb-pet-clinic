@@ -2,10 +2,11 @@ package troney.springframework.pjbpetclinic.services.map;
 
 import troney.springframework.pjbpetclinic.model.Vet;
 import troney.springframework.pjbpetclinic.services.CrudService;
+import troney.springframework.pjbpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
