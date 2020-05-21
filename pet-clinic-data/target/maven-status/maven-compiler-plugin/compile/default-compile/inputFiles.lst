@@ -1,5 +1,14 @@
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/PetService.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/map/OwnerServiceMap.java
 /Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/model/PetType.java
-/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/model/Person.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/VetService.java
 /Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/model/Owner.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/map/PetServiceMap.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/map/AbstractMapService.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/map/VetServiceMap.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/model/BaseEntity.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/OwnerService.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/model/Person.java
 /Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/model/Pet.java
 /Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/model/Vet.java
+/Users/Aichute/pjb-pet-clinic/pet-clinic-data/src/main/java/troney/springframework/pjbpetclinic/services/CrudService.java
