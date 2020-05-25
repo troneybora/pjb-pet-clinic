@@ -9,7 +9,6 @@ import troney.springframework.pjbpetclinic.repositories.PetTypeRepository;
 import troney.springframework.pjbpetclinic.services.OwnerService;
 
 import java.util.HashSet;
-import java.util.Optional;
 import java.util.Set;
 
 @Service
