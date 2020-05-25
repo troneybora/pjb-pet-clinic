@@ -1,5 +1,6 @@
 package troney.springframework.pjbpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import troney.springframework.pjbpetclinic.model.Visit;
 import troney.springframework.pjbpetclinic.services.VisitService;
@@ -7,6 +8,7 @@ import troney.springframework.pjbpetclinic.services.VisitService;
 
 import java.util.Set;
 @Service
+@Profile({"default", "map"})
 public class VisitServiceMap extends AbstractMapService<Visit,Long> implements VisitService {
 
 

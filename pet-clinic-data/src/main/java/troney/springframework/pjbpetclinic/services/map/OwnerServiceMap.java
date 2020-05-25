@@ -1,5 +1,6 @@
 package troney.springframework.pjbpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import troney.springframework.pjbpetclinic.model.Owner;
 import troney.springframework.pjbpetclinic.model.Pet;
@@ -10,6 +11,7 @@ import troney.springframework.pjbpetclinic.services.PetTypeService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
     private final PetTypeService petTypeService;

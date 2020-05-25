@@ -1,5 +1,6 @@
 package troney.springframework.pjbpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import troney.springframework.pjbpetclinic.model.PetType;
 import troney.springframework.pjbpetclinic.services.PetTypeService;
@@ -7,6 +8,7 @@ import troney.springframework.pjbpetclinic.services.PetTypeService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class PetTypeServiceMap extends AbstractMapService<PetType,Long> implements PetTypeService {
     @Override
     public Set<PetType> findAll() {
