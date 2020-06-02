@@ -28,7 +28,7 @@ working_directory: ~/repo
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-
+    - run: mvn install -DskipTests
 
     - run: mvn dependency:go-offline
 
@@ -37,4 +37,6 @@ working_directory: ~/repo
           - ~/.m2
         key: v1-dependencies-{{ checksum "pom.xml" }}
 
-    - run: mvn install
+    #Run Test:
+    - run: mvn integration-test
+
