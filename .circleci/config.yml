@@ -38,4 +38,4 @@ working_directory: ~/repo
         key: v1-dependencies-{{ checksum "pom.xml" }}
 
     # run tests!
-    - run: mvn integration-test
+    - run: mvn install
